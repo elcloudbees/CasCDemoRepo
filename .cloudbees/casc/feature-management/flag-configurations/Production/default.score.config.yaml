@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: default.score
+
+enabled: false
+
+defaultValue: false
+
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: BetaUsers
+    flagValue: true
