@@ -13,4 +13,4 @@ conditions:
       - anyOf:
           - group:
               name: BetaUsers
-    flagValue: true
+    flagValue: false
